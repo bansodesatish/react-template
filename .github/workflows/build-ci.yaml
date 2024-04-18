@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+    - .github/workflows/build-ci.yaml
+    - 'src/**'
+    - 'public/**'
+    - 'Dockerfile'
+    - 'Dockerfile-nginx'
+    - 'nginx.conf'
+
 
 jobs:
   docker:
