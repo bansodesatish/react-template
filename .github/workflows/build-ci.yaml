@@ -38,5 +38,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: bansodesatish/reactapp:${{ github.run_id }}
+          tags: bansodesatish/reactapp:latest
           file: Dockerfile-nginx
